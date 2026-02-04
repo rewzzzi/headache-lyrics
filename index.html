@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headache - Asal (Lyrics Experience)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left-side">
+        <div class="album-art" id="cover"></div>
+        
+        <audio id="music-player">
+            <source src="track.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио.
+        </audio>
+
+        <div class="custom-player">
+            <button id="play-btn" class="play-button">▶</button>
+            
+            <div class="progress-container" id="progress-cont">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <div class="volume-container">
+                <span class="volume-icon" id="mute-btn">🔊</span>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="1">
+            </div>
+        </div>
+    </div>
+
+    <div class="lyrics-container" id="lyrics-box">
+        <div class="lyrics-wrapper">
+            <div class="lyric-line" data-time="10.5">Never felt something like this</div>
+            <div class="lyric-line" data-time="12.7">Wanna tattoo your kiss on my lips</div>
+            <div class="lyric-line" data-time="21.0">Got me good when you walked in</div>
+            <div class="lyric-line" data-time="23.7">Got me good the way that you walked in</div>
+
+            <div class="lyric-line" data-time="27.0">I didn't listen to my homies</div>
+            <div class="lyric-line" data-time="30.0">'Cause they didn't want you around me</div>
+            <div class="lyric-line" data-time="31.7">I cut 'em all off one by one</div>
+            <div class="lyric-line" data-time="34.0">I know you are the only one I need</div>
+
+            <div class="lyric-line" data-time="38.0">Her hand is hiding where her blade is</div>
+            <div class="lyric-line" data-time="40.7">But I see nothing but a red dress</div>
+            <div class="lyric-line" data-time="42.3">Runnin' up to rob me blind</div>
+            <div class="lyric-line" data-time="44.5">I know it'll hurt but I'll be fine</div>
+
+            <div class="lyric-line" data-time="47.0">I-I-I don't know where my head is</div>
+            <div class="lyric-line" data-time="50.0">Something's missing in my chest</div>
+            <div class="lyric-line" data-time="51.5">I think I need a medic</div>
+            <div class="lyric-line" data-time="52.7">I've been looking for a flaw in you</div>
+            <div class="lyric-line" data-time="54.3">I don't really get it</div>
+            <div class="lyric-line" data-time="55.5">You don't even know you're flawless</div>
+            <div class="lyric-line" data-time="57.0">It's giving me a headache</div>
+
+            <div class="lyric-line" data-time="58.7">I-I don't know where my head is</div>
+            <div class="lyric-line" data-time="61.0">Wanna give it all</div>
+            <div class="lyric-line" data-time="62.0">Even though I'ma regret it in the morning</div>
+            <div class="lyric-line" data-time="64.5">Yeah, I know you warned me</div>
+            <div class="lyric-line" data-time="65.7">But how could I resist you?</div>
+            <div class="lyric-line" data-time="67.3">You got me floating, yeah</div>
+
+            <div class="lyric-line" data-time="69.0">Ever since I've seen your face</div>
+            <div class="lyric-line" data-time="71.5">My innocence's done, left this place</div>
+            <div class="lyric-line" data-time="74.0">You know you got me good when you walked in</div>
+            <div class="lyric-line" data-time="77.0">Got me good the way that you walked in</div>
+            <div class="lyric-line" data-time="79.5">Never felt something like this</div>
+            <div class="lyric-line" data-time="82.0">Wanna tattoo your kiss on my lips</div>
+            <div class="lyric-line" data-time="84.7">You know you got me good when you walked in</div>
+            <div class="lyric-line" data-time="87.7">Got me good the way that you walked in</div>
+            <div class="lyric-line" data-time="90.0">(You know you got me good when you walked in)</div>
+
+            <div class="lyric-line" data-time="94.0">You got me right where you wanted</div>
+            <div class="lyric-line" data-time="96.0">I can't tell a wrong from right if I'm honest</div>
+            <div class="lyric-line" data-time="98.0">I don't care 'bout that right now</div>
+            <div class="lyric-line" data-time="101.0">You're all I got on my mind</div>
+            <div class="lyric-line" data-time="104.0">And I heard all the stories about you</div>
+            <div class="lyric-line" data-time="107.0">So, I know you could never keep a promise</div>
+            <div class="lyric-line" data-time="109.0">I don't care 'bout that right now</div>
+            <div class="lyric-line" data-time="111.5">You're all I got on my mind</div>
+
+            <div class="lyric-line" data-time="114.0">I-I-I don't know where my head is</div>
+            <div class="lyric-line" data-time="117.0">Something's missing in my chest</div>
+            <div class="lyric-line" data-time="118.5">I think I need a medic</div>
+            <div class="lyric-line" data-time="119.7">I've been looking for a flaw in you</div>
+            <div class="lyric-line" data-time="121.0">I don't really get it</div>
+            <div class="lyric-line" data-time="122.0">You don't even know you're flawless</div>
+            <div class="lyric-line" data-time="123.3">It's giving me a headache</div>
+            <div class="lyric-line" data-time="125.0">I-I don't know where my head is</div>
+            <div class="lyric-line" data-time="127.7">Wanna give it all</div>
+            <div class="lyric-line" data-time="129.0">Even though I'ma regret it in the morning</div>
+            <div class="lyric-line" data-time="131.0">Yeah, I know you warned me</div>
+            <div class="lyric-line" data-time="132.3">But how could I resist you?</div>
+            <div class="lyric-line" data-time="134.0">You got me floating</div> 
+
+            <div class="lyric-line" data-time="135.7">Ever since I've seen your face</div>
+            <div class="lyric-line" data-time="138.0">My innocence's done, left this place</div>
+            <div class="lyric-line" data-time="140.7">You know you got me good when you walked in</div>
+            <div class="lyric-line" data-time="143.7">Got me good the way that you walked in</div>
+            <div class="lyric-line" data-time="146.5">Never felt something like this</div>
+            <div class="lyric-line" data-time="148.7">Wanna tattoo your kiss on my lips</div>
+            <div class="lyric-line" data-time="151.0">You know you got me good when you walked in</div>
+            <div class="lyric-line" data-time="154.0">Got me good the way that you walked in</div>
+            <div class="lyric-line" data-time="157.0">Ever since I've seen your face</div>
+            <div class="lyric-line" data-time="159.3">My innocence's done, left this place</div>
+            <div class="lyric-line" data-time="162.0">You know you got me good when you walked in</div>
+            <div class="lyric-line" data-time="165.0">Got me good the way that you walked in</div>
+
+            <div class="lyric-line" data-time="167.8">Never felt something like this</div>
+            <div class="lyric-line" data-time="170.0">Wanna tattoo your kiss on my lips</div>
+            <div class="lyric-line" data-time="173.0">You know you got me good when you walked in</div>
+            <div class="lyric-line" data-time="175.5">Got me good the way that you walked in</div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
